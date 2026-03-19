@@ -15,7 +15,7 @@ int main() {
     int curr = 1;
     int next = 1;
 
-    for (int i = 2; i < n; i++) { // iterative summation process
+    for (int i = 2; i <= n; i++) { // iterative summation process
         next = prev + curr;
         prev = curr;
         curr = next;
